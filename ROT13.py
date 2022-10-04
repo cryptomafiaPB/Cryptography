@@ -7,6 +7,7 @@ print("-"*20+"""
 \__/_/  \_, / .__/\__/\___/ /_/_/_/\_,_/_//_/\_,_/ 
        /___/_/                                     """+"-"*20+"\n"*3)
 def rot13():
+    print("NOTE: \"space\" not allow in input")
     inp = input("Enter a cipher to decode using ROT13: ")
     i= inp.lower()
     ans = []
