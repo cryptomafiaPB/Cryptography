@@ -4,7 +4,8 @@ print("-" * 20 + """
  __________ _____  / /____    __ _  ___ _/ _(_)__ _
 / __/ __/ // / _ \/ __/ _ \  /  ' \/ _ `/ _/ / _ `/
 \__/_/  \_, / .__/\__/\___/ /_/_/_/\_,_/_//_/\_,_/ 
-       /___/_/                                     """ + "-" * 20 + "\n" * 3)
+       /___/_/                                     """ + "-" * 20 + "  github ==> cryptomafiaPB" + "\n" * 3)
+print("This is an md5 hash python decryptor script with dictionary attack\n")
 import hashlib
 import os
 def crack(hash):
@@ -28,4 +29,4 @@ def crack(hash):
         print("Password NOT Found     :(")
 i = str(input("Enter a md5 hash :  ")).strip()
 crack(i)
-#github = @cryptomafia
+#github = @cryptomafiaPB
